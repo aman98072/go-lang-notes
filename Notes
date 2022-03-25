@@ -1,0 +1,18 @@
+package main // its mandatory defined for calling main function and main function must be call by compiler
+
+import "fmt" // import fmt package for using print or println function
+
+fmt.Println("Hello world") // println("hello world") // for print a msg
+
+// define diff type of variables
+var a = 10
+var b int = 34
+c := 23
+
+// types of variables : local, global, package level 
+
+// local variable : only access within function and its define lower case variable like : myname
+
+// global variable : access in global level and with in package not access in other packages and it is define in pascal variable like : Myname
+
+// package level variable : access in global level and with in package not access in other packages and it is define in camel case like : myName
