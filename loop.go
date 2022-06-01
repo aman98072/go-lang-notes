@@ -3,7 +3,7 @@ import "fmt" // import fmt package for using print or println function
 
 func main() {
 	// loops
-	// there is only one type loop in go lang
+	// there is only one type loop in go lang which is for loop
 	for i := 1; i <= 5; i++ {
 		fmt.Println("hello world", i)
 	}
@@ -15,4 +15,9 @@ func main() {
 		sum += v
 	}
 	fmt.Println("Total sum is : ", sum)
+
+	// run loop as infinate
+	for {
+		fmt.Println("hello")
+	}
 }

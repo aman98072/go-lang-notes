@@ -4,7 +4,6 @@ import "fmt" // import fmt package for using print or println function
 
 var Myname = "Aman"   // global variable
 var myLName = "Gupta" // package level variable or myname also package level when define in global
-var a = 34            // variable shadowing
 
 // structure
 type Employee struct {

@@ -15,4 +15,15 @@ c := 23
 
 // global variable : access in global level and with in package not access in other packages and it is define in pascal variable like : Myname
 
-// package level variable : access in global level and with in package not access in other packages and it is define in camel case like : myName
+// package level variable : access in global level with in package and its not access in other packages and it is define in camel case like : myName
+
+
+
+
+//  Creating Bookstore project
+
+go mod init github.com/aman98072/go-bookstore : for creating init bookstore
+go get "github.com/jinzhu/gorm" : for go ORM
+go get "github.com/jinzhu/gorm/dialects/mysql"  : for mysql
+go get "github.com/gorilla/mux"  : for routing
+

@@ -3,11 +3,11 @@ import "fmt" // import fmt package for using print or println function
 
 func main() {
 	// Array
-	var arr = [...]int{1, 2, 4, 5}
+	var arr = [...]int{1, 2, 4, 5, 9}
 	fmt.Println(arr, arr[0], len(arr)) // len for getting length of array
 
 	// slice from array
-	fmt.Println(arr[1:3]) // 1 is staring and 3 is no of elements
+	fmt.Println(arr[1:3]) // 1 is starting and 3 is no of elements
 	fmt.Println(arr[:2])  // 2 means no of element till
 	fmt.Println(arr[2:])  // 2 means no of element left
 
